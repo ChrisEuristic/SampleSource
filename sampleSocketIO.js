@@ -6,7 +6,6 @@ const PORT = 4000;
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/sampleSocketIO.html');
-    
 });
 
 app.get('/hello', (req, res) => {
